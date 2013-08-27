@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>This is the get_cool_url</h1>
+
+ Here is your first form. Use a get request!
+<form action="/cool_url" method="get">
+  <input type="text" name="user_input">
+  <input type="submit" value="Get Request">
+  <br>
+  <br>
+  <p><%= params[:user_input] %></p>
+  <br>
+  <br>
+</form>
+
+
+<form action="/cool_url" method="post">
+    You are in your second form. Time for a post!
+    <br>
+    <input type="text" name="user_input">
+    <input type="submit" value="Post Request">
+  </form>
+</div>
